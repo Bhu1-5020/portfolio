@@ -1,120 +1,158 @@
 <!--Home-->
-<div id="home" class="flex items-center justify-between bg-blue-300 p-40">
-  <div>
+<div
+  id="home"
+  class="flex flex-col-reverse md:flex-row items-center justify-between bg-blue-300 px-6 py-12 md:px-20 md:py-24"
+>
+  <div class="text-center md:text-left">
     <h2 class="text-7xl font-bold font-mono">
       <span id="type"></span>
       <span id="cursor">|</span>
     </h2>
     <br />
-    <p class="text-4xl">
+    <p class="text-xl md:text-4xl mt-6">
       seeking an opportunity to launch my career in <br />Web development
     </p>
   </div>
 
-  <img src="image/myImg.PNG" alt="my pic" class="w-4/12 h-auto" />
+  <img
+    src="image/myImg.PNG"
+    alt="my pic"
+    class="w-64 md:w-full max-w-xl h-auto mb-8 md:mb-0"
+  />
 </div>
 
 <!--about me -->
-<div id="aboutme" class="flex-5 bg-blue-300 p-40">
-  <h3 class="text-4xl">
-    After several years as a Team Coordinator at the Austrian Post, I discovered
-    <br />
-    my professional passion for programming , Which motivated to begin
-    <br />
-    my career in the tech industry.
-    <br /><br />
-    In 2025, I completed my training as a Java Software Developer at Wifi vienna
-    (Austria), where i gained a solid foundation in software development, OOP ,
-    Database and web technologies.
-    <br />
-    Currently, I am studying Web Development at FernFH, where I am learning the
-    fundamentals of DevOps, Web Security, PHP, and modern Frontend Frameworks
-  </h3>
+<div id="aboutme" class="bg-blue-300 px-6 py-12 md:px-20 md:py-24">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl md:text-5xl font-bold mb-8">About Me</h2>
+
+    <p class="text-lg md:text-2xl leading-relaxed">
+      After several years as a Team Coordinator at the Austrian Post, I
+      discovered my passion for programming, which motivated me to begin my
+      career in the tech industry.
+
+      <br /><br />
+
+      In 2025, I completed my training as a Java Software Developer at WIFI
+      Vienna (Austria), where I gained a solid foundation in software
+      development, OOP, databases, and web technologies.
+
+      <br /><br />
+
+      Currently, I am studying Web Development at FernFH, where I am learning
+      DevOps, Web Security, PHP, and modern Frontend Frameworks.
+    </p>
+  </div>
 </div>
 <!-- my skills  -->
+<div class="bg-gray-100 py-12 px-4">
+  <div id="skill" class="max-w-6xl mx-auto bg-white shadow-xl rounded-2xl p-6">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Skills</h2>
 
-<div class="flex items-center justify-center bg-gray-100 h-72">
-  <div
-    id="skill"
-    class="bg-white shadow-xl rounded-2xl p-4 w-11/12 text-center"
-  >
-    <h2 class="text-2xl font-bold text-gray-800 mb-4">My Skills</h2>
     <div
-      class="flex justify-center items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600 gap-8"
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6"
     >
-      <div class="flex flex-col items-center">
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-        <span class="text-gray-300">Java</span>
+        <span>Java</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-        <span class="text-gray-300">Spring boot</span>
+        <span>Spring Boot</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-
-        <span class="text-gray-300">PHP</span>
+        <span>PHP</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-
-        <span class="text-gray-300">MySQL</span>
+        <span>MySQL</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-
-        <span class="text-gray-300">git</span>
+        <span>Git</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-          class="w-12 h-12 mb-2"
+          class="w-14 h-14 mb-2"
         />
-
-        <span class="text-gray-300">HTML</span>
+        <span>HTML</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
           class="w-12 h-12 mb-2"
         />
-
-        <span class="text-gray-300">Tailwindcss</span>
+        <span>Tailwindcss</span>
       </div>
-      <div class="flex flex-col items-center">
+
+      <div
+        class="flex flex-col items-center p-4 bg-gray-800 rounded-xl text-white hover:bg-gray-700 transition"
+      >
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
           class="w-12 h-12 mb-2"
         />
-
-        <span class="text-gray-300">JavaScript</span>
+        <span>JavaScript</span>
       </div>
     </div>
   </div>
 </div>
+
 <!--Contact me -->
 <div id="contact" class="bg-gray-100">
   <div class="container mx-auto py-12">
     <div class="max-w-lg mx-auto px-4">
       <h2 class="text-3xl font-semibold text-gray-900 mb-4">
-        Send me your message (currently not working)
+        Send me your message
       </h2>
-      <form class="bg-white rounded-lg px-6 py-8 shadow-md">
+      <form
+        id="form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="bg-white rounded-lg px-6 py-8 shadow-md"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="1d999765-668f-4cab-b040-eeab72683fdf"
+        />
         <div class="mb-4">
           <label class="block text-gray-700 font-bold mb-2" for="name"
             >Name</label
@@ -122,6 +160,7 @@
           <input
             class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
+            name="name"
             type="text"
             placeholder="Enter your name"
           />
@@ -133,6 +172,7 @@
           <input
             class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
+            name="email"
             type="email"
             placeholder="Enter your email"
           />
@@ -141,9 +181,15 @@
           <label class="block text-gray-700 font-bold mb-2" for="message"
             >Message</label
           >
+          <input
+            type="hidden"
+            name="subject"
+            value="Message from bhuwan.info"
+          />
           <textarea
             class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="message"
+            name="message"
             rows="6"
             placeholder="Enter your message"
           ></textarea>
@@ -151,11 +197,12 @@
         <div class="flex justify-end">
           <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="button"
+            type="submit"
           >
             Send
           </button>
         </div>
+        <p id="notice"></p>
       </form>
     </div>
   </div>

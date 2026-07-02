@@ -1,4 +1,3 @@
-
 async function loadHTML(elementID , file) {
     try{
 
@@ -20,7 +19,7 @@ function type(){
   if(i < text.length){
     element.innerHTML += text.charAt(i);
     i++ ;
-    setTimeout(type , 300);
+    setTimeout(type , 250);
   }
 }
 setInterval(() =>{
@@ -31,9 +30,10 @@ async function init() {
     await loadHTML("navbar", "navbar.html");
     await loadHTML("content", "content.html");
     await loadHTML("footer", "footer.html");
-
+    
     type();
 
 }
 
 init();
+
